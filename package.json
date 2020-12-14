@@ -1,0 +1,24 @@
+{
+  "name": "@esfn/elem",
+  "version": "0.1.0",
+  "description": "create DOM element using CSS-like string",
+  "main": "elem.mjs",
+  "scripts": {
+    "test": "node --experimental-modules node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richRemer/elem.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/elem/issues"
+  },
+  "homepage": "https://github.com/richRemer/elem#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1"
+  }
+}
